@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: lightblue;
+    text-align: center;
+}
+
+#home {
+    width: 100%;
+    height: 100vh;
+    background-color: lightblue;
+    position: relative;
+}
+
+.bio {
+    position: absolute;
+    text-align: center;
+}
+
+.bio img {
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin: auto;
+}
+
+.bio p {
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.bio1 {
+    top: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.bio2 {
+    top: 100px;
+    left: 15%;
+}
+
+.bio3 {
+    top: 125px;
+    right: 15%;
+}
+
+.bio4 {
+    top: 350px;
+    left: 15%;
+}
+
+.bio5 {
+    top: 350px;
+    right: 15%;
+}
+
+.page {
+    min-height: 100vh;
+    padding: 40px;
+}
